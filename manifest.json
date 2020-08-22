@@ -1,0 +1,24 @@
+{
+	"author": "serxka",
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"commands": {
+		"new-tab": {
+			"description": "Create a New Tab",
+			"suggested_key": {
+				"default": "Ctrl+T"
+			}
+		}
+	},
+	"description": "Press Ctrl+T to duplicate the first most pinned tab, create pinned tab from custom URL if doesn't exist. Shortcut is configurable.",
+	"homepage_url": "https://github.com/serxka/new_tab",
+	"manifest_version": 2,
+	"name": "New Tab",
+	"permissions": [
+		"tabs"
+	],
+	"version": "0.1.0"
+}
