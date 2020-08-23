@@ -18,7 +18,12 @@
 	"manifest_version": 2,
 	"name": "New Tab",
 	"permissions": [
-		"tabs"
+		"tabs",
+		"storage"
 	],
-	"version": "0.1.0"
+	"options_ui": {
+		"page": "opts.html",
+		"open_in_tab": false
+  	},
+	"version": "0.2.0"
 }
